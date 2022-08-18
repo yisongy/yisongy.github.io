@@ -1,0 +1,164 @@
+/***/
+*{
+	font-family:"Segoe UI";
+}
+
+.main-page{
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+p{
+	font-size:11pt;
+	text-align:justify;
+	margin-bottom:10px;
+	padding-left:0px;
+}
+
+p.subtitle{
+	color: #931c0f!important;
+    font-weight: bold!important;
+}
+
+a{
+	color:#21858c;
+}
+
+a:hover{
+	color:#ff7500;
+}
+
+.paper{
+	font-size:11pt;
+	text-align:justify;
+	margin-bottom:10px;
+	padding-left:26px;
+}
+
+.paper li{
+	padding:3px 0px;
+}
+
+.section-icon{
+	vertical-align:text-bottom;
+	width:24px;
+	height:24px;
+	margin-right:8px;
+}
+
+.sidbar-icon{
+	vertical-align:text-bottom;
+	width:16px;
+	height:16px;
+	margin-right:4px;
+}
+
+.biography-sect, .projects-sect, .attach-sect{
+	border-bottom:1px solid #dee2e6;
+	margin-bottom:10px;
+}
+
+.biography-sect h6, .projects-sect h6, .services-sect h6 , .awards-sect h6, .attach-sect h6{
+	color:#009faa;
+	
+}
+
+.sidebar{
+	background:#444957;
+	padding-top:20px;
+	/*border-top:10px solid #bd2130;*/
+}
+
+.sidebar-content{
+	
+}
+
+.content{
+	/*border-top:10px solid #20201f;*/
+	padding:20px 20px;
+	background-image:url(../img/new_tag_2022.png);
+	background-position:right top;
+	background-repeat:no-repeat;
+}
+
+.person-image{
+	text-align:center;
+	padding-bottom:10px;
+}
+
+.person-image img{
+	width:150px;
+	height:150px;
+}
+
+.person-image img:hover{
+	opacity:0.8;
+}
+
+p.yyellow{
+	color:#5fd6de!important;
+}
+
+.person-info h6{
+	text-align:center;
+	color:#eee;	
+}
+
+.person-info p{
+	font-weight:bold;
+	text-align:center;
+	color:#c6c6c6;		
+}
+
+
+span.award-tag{
+	font-weight:bold;
+	/*color:#bd2130;*/
+	color:#931c0f!important;
+}
+
+strong{
+	color:#444957;
+}
+
+.person-bike{
+	padding-top:30px;
+	text-align:center;
+}
+
+.person-footer{
+	padding-top:20px;
+}
+
+.person-footer p{
+	text-align:center;
+	color:#c6c6c6;	
+	margin:2px 0px;
+}
+
+span.footer{
+	color:#f5e17c!important;
+	font-weight:bold!important;
+}
+
+.writing-sect{
+	width:200px;
+	height:38px;
+	margin:0px auto;
+	background:url(../img/writing.png) 0px 38px;
+}
+
+
+@media (max-width:540px) {
+	.person-bike, .person-footer{
+		display:none;
+	}
+	.main-page{
+		margin-top:0px;
+	}
+	.sidebar{
+		background:url(../img/logo-bg.jpg) center center;
+		background-size:cover;
+	}
+}
+
